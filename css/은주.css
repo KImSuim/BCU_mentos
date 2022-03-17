@@ -1,0 +1,99 @@
+#mentos{
+    text-align: center;
+}
+
+.menu{
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.name{
+    font-family: 'Jua', sans-serif;
+    display: block;
+    margin-top: 0px;
+    text-align: center;
+}
+.index{
+    font-family: Jua, sans-serif;
+    text-align: center;
+    }
+
+.index1{
+    font-family: Jua, sans-serif;
+}
+
+.by{
+    color:rgb(148, 148, 148);
+    text-align: center;
+    font-weight:lighter;
+    display: block;
+    margin-top: 13px;
+    font-family: Jua, sans-serif;
+}
+
+.layout{
+    max-width: 1080px;
+    height: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1em;
+}
+aside{
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: #a2f39f;
+    border-radius: 10px;
+}
+
+article{
+    flex-basis: 680px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    background-color: #a2f39f;
+    border-radius: 10px;
+}
+
+.flexbox{
+    border-radius: 10px;
+    margin: 10px 10px 10px;
+    height: 610px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 10px;
+    background-color: #d0ffce;
+
+}
+
+mark{
+    background-color: #a2f39f;
+}
+
+.item{
+    font-size: 25px;
+    font-family: Jua, sans-serif;
+    display: block;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+a:link {
+    color : black;
+    text-decoration: none;
+}
+a:visited {
+    color : black;
+    text-decoration: none;
+}
+
+a:hover {
+    color : #36a332;
+    text-decoration: underline;
+}
+a:active {
+    color : #1e5f15;
+    text-decoration: none;
+}
